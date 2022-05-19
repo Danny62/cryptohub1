@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html? lang="en-US">
+    <header>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+    </header>
+    <title>Dashboard</title>
+    <h1>See relevant market information at a glance</h1>
+    <body>
+        <div class="wrapper">
+            <div>
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee"
+                coins="1,1027,5426,11171" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
+                <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+                <coingecko-coin-converter-widget coin-id="bitcoin" currency="gbp" background-color="#ffffff" font-color="#000000" locale="en"></coingecko-coin-converter-widget>
+            </div>
+            <div>
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright">
+                        <a href="https://www.tradingview.com/markets/indices/" rel="noopener"
+                           target="_blank"><span class="blue-text">Indices</span></a> by TradingView
+                    </div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showSymbolLogo": false,
+  "showFloatingTooltip": false,
+  "width": "1100",
+  "height": "660",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 0)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "FOREXCOM:SPXUSD",
+          "d": "S&P 500"
+        },
+        {
+          "s": "FOREXCOM:NSXUSD",
+          "d": "US 100"
+        }
+      ],
+      "originalTitle": "Indices"
+    }
+  ]
+}
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
+            </div>
+            <p>
+                <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+                <coingecko-coin-heatmap-widget height="400" locale="en"></coingecko-coin-heatmap-widget>
+            </p>
+          
+        </div>
+        
+
+        <p><a href="mailto:dannyadams@outlook.com">dannyadams@outlook.com</a></p>
+
+    </body>
+</html?>
